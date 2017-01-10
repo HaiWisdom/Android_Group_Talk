@@ -1,0 +1,7 @@
+
+service Service{
+  list<string> multiGet(1: list<string> keys);
+  void multiPut(1: list<string> keys, 2: list<string> values)throws (1:IllegalArgument ia);
+  string Get(1:string key);
+  void Put(1:string key,2:string value);
+}

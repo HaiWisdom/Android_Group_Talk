@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <!--
+        android:shape="rectangle" 指定该图形的类型为矩形
+     -->
+
+    <!-- The radius makes the corners rounded -->
+    <corners
+        android:radius="10dp"   >
+    </corners>
+
+    <!-- 设置边框的宽度和颜色 -->
+    <stroke
+        android:width="8px"
+        android:color="@android:color/black"/>
+
+    <!-- 设置背景颜色渐变 从 红色  -> 绿色 -> 蓝色, 渐变的类型为sweep渐变 -->
+    <solid
+        android:color="#00000000"/>
+</shape>

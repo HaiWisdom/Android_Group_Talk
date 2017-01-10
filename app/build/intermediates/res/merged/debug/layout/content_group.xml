@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_group"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="ca.uwaterloo.grouptalk.GroupActivity"
+    tools:showIn="@layout/activity_group"
+    android:contentDescription="@string/hello">
+
+
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:id="@+id/smile_face"
+        android:layout_alignParentStart="true"
+        android:layout_marginEnd="@dimen/interval"
+        android:contentDescription="@string/hello"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/hello"
+        android:text="@string/hello"
+        android:textColor="@color/colorBlue700"
+        android:textSize="28sp"
+        android:layout_toEndOf="@id/smile_face"
+        android:layout_alignBaseline="@id/smile_face"
+        android:contentDescription="@string/hello"
+        android:layout_marginEnd="50dp"/>
+
+    <Button
+        android:text="@string/logout"
+        android:layout_width="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="20dp"
+        android:textColor="@color/colorOrange800"
+        android:id="@+id/buttonLogout"
+        android:background="@android:color/white"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/hello"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:id="@+id/gameFansLinearLayout"
+        android:layout_marginTop="@dimen/activity_vertical_margin_large"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/smile_face"
+        android:background="@drawable/border"
+        android:layout_marginStart="@dimen/activity_vertical_margin"
+        >
+
+        <ImageButton
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/game"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:padding="6dp"
+            android:contentDescription="@string/game"
+            android:layout_gravity="center"
+            android:background="#00000000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/gameFanTextView"
+            android:text="@string/game"
+            android:textColor="@color/colorBlue700"
+            android:textSize="20sp"
+            android:contentDescription="@string/game"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:id="@+id/lightMusicLinearLayout"
+        android:layout_marginTop="@dimen/activity_vertical_margin_large"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_alignParentEnd="true"
+        android:layout_alignEnd="@+id/gameFansLinearLayout"
+        android:layout_below="@+id/smile_face"
+        android:background="@drawable/border"
+        android:layout_marginEnd="@dimen/activity_vertical_margin">
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/music"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:padding="6dp"
+            android:contentDescription="@string/game"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/interval_small"
+            android:background="#00000000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/musicTextView"
+            android:text="@string/music"
+            android:textColor="@color/colorBlue700"
+            android:textSize="20sp"
+            android:contentDescription="@string/music"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:id="@+id/colorLinearLayout"
+        android:layout_marginTop="@dimen/activity_vertical_margin_large"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/gameFansLinearLayout"
+        android:background="@drawable/border"
+        android:layout_marginStart="@dimen/activity_vertical_margin"
+        >
+
+        <ImageButton
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/color"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:padding="6dp"
+            android:contentDescription="@string/color"
+            android:layout_gravity="center"
+            android:background="#00000000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/colorTextView"
+            android:text="@string/color"
+            android:textColor="@color/colorBlue700"
+            android:textSize="20sp"
+            android:contentDescription="@string/color"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:id="@+id/runningLinearLayout"
+        android:layout_marginTop="@dimen/activity_vertical_margin_large"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_alignParentEnd="true"
+        android:layout_alignEnd="@+id/colorLinearLayout"
+        android:layout_below="@+id/lightMusicLinearLayout"
+        android:background="@drawable/border"
+        android:layout_marginEnd="@dimen/activity_vertical_margin">
+
+        <ImageButton
+            android:layout_marginTop="10dp"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/run"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:padding="6dp"
+            android:contentDescription="@string/run"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/interval"
+            android:background="#00000000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/run"
+            android:textColor="@color/colorBlue700"
+            android:textSize="20sp"
+            android:contentDescription="@string/run"
+            android:gravity="center"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

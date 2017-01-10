@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Uwaterloo\ECE655\projects\project2\GroupTalk\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Uwaterloo\ECE655\projects\project2\GroupTalk\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.2.1_1690e48186753e3277819682996b0e7b7182e980.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Wisdom H Jiang\.gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-api\1.5.8\2aaf496dfd551adb9b079f58a7e2d55eb383fc82\slf4j-api-1.5.8.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="2aaf496dfd551adb9b079f58a7e2d55eb383fc82">
+        <dex dex="C:\Uwaterloo\ECE655\projects\project2\GroupTalk\app\build\intermediates\pre-dexed\debug\slf4j-api-1.5.8_fc78cc935e61743b4e53c7830c9c4fa2a66fcf26.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Wisdom H Jiang\.gradle\caches\modules-2\files-2.1\org.hamcrest\hamcrest-core\1.3\42a25dc3219429f0e5d060061f71acb49bf010a0\hamcrest-core-1.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="42a25dc3219429f0e5d060061f71acb49bf010a0">
+        <dex dex="C:\Uwaterloo\ECE655\projects\project2\GroupTalk\app\build\intermediates\pre-dexed\androidTest\debug\hamcrest-core-1.3_f4fc1d06090e965bdaffece9ccc0adc017534e03.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Uwaterloo\ECE655\projects\project2\GroupTalk\app\build\intermediates\exploded-aar\com.android.support.test\rules\0.5\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="7e11799d8a26bfa5d48acafe012ee5545b9bf468">
+        <dex dex="C:\Uwaterloo\ECE655\projects\project2\GroupTalk\app\build\intermediates\pre-dexed\androidTest\debug\com.android.support.test-rules-0.5_8550f2cce9f61693eb8f5127ae910b40e7a10941.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Uwaterloo\ECE655\projects\project2\GroupTalk\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="C:\Uwaterloo\ECE655\projects\project2\GroupTalk\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_eb34ddc131ee5b11c0ed91581ce0e1140750f373.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Uwaterloo\ECE655\projects\project2\GroupTalk\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="C:\Uwaterloo\ECE655\projects\project2\GroupTalk\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-24.2.1_7a221d03b4e20f6e4fa629fee29641b2dd90010c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Wisdom H Jiang\.gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-log4j12\1.5.8\da00a151c4db31b5be23e5f2b9f528735fddc384\slf4j-log4j12-1.5.8.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="da00a151c4db31b5be23e5f2b9f528735fddc384">
+        <dex dex="C:\Uwaterloo\ECE655\projects\project2\GroupTalk\app\build\intermediates\pre-dexed\debug\slf4j-log4j12-1.5.8_74e9d630a8cc8e37529a928e529a259a6d004985.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Uwaterloo\ECE655\projects\project2\GroupTalk\app\build\intermediates\exploded-aar\com.android.support.test.espresso\espresso-idling-resource\2.2.2\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="a890ee8445927649d9ed50f625a315d8758688be">
+        <dex dex="C:\Uwaterloo\ECE655\projects\project2\GroupTalk\app\build\intermediates\pre-dexed\androidTest\debug\com.android.support.test.espresso-espresso-idling-resource-2.2.2_3e5d36bf9e7aec6628d3563146a6397fe899845f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Uwaterloo\ECE655\projects\project2\GroupTalk\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="C:\Uwaterloo\ECE655\projects\project2\GroupTalk\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_4f6e95e31277eaf5ff73caa0583f6400c379db65.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Wisdom H Jiang\.gradle\caches\modules-2\files-2.1\javax.inject\javax.inject\1\6975da39a7040257bd51d21a231b76c915872d38\javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="C:\Uwaterloo\ECE655\projects\project2\GroupTalk\app\build\intermediates\pre-dexed\androidTest\debug\javax.inject-1_dff7724dd82b7358f7eb9a7f6fea094dca8a6f6b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Uwaterloo\ECE655\projects\project2\GroupTalk\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="C:\Uwaterloo\ECE655\projects\project2\GroupTalk\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-24.2.1_a1a10ea0de028a271aa63a6c7be0d9c588946180.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Wisdom H Jiang\.gradle\caches\modules-2\files-2.1\org.hamcrest\hamcrest-library\1.3\4785a3c21320980282f9f33d0d1264a69040538f\hamcrest-library-1.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="4785a3c21320980282f9f33d0d1264a69040538f">
+        <dex dex="C:\Uwaterloo\ECE655\projects\project2\GroupTalk\app\build\intermediates\pre-dexed\androidTest\debug\hamcrest-library-1.3_27b6001f17bdae83ff885ff334dc53b7b1968dd3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Uwaterloo\ECE655\projects\project2\GroupTalk\app\libs\robotium-solo-5.6.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="6715f07061d8fd1471c6101f86f803764a763c81">
+        <dex dex="C:\Uwaterloo\ECE655\projects\project2\GroupTalk\app\build\intermediates\pre-dexed\debug\robotium-solo-5.6.2_100e02f3b5a5a52b483ecc9a2bd1e95a82b529aa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Uwaterloo\ECE655\projects\project2\GroupTalk\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="C:\Uwaterloo\ECE655\projects\project2\GroupTalk\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_f33a07560db31f0b8ca8e07636cd2e2841667d9a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Wisdom H Jiang\.gradle\caches\modules-2\files-2.1\com.squareup\javawriter\2.1.1\67ff45d9ae02e583d0f9b3432a5ebbe05c30c966\javawriter-2.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="67ff45d9ae02e583d0f9b3432a5ebbe05c30c966">
+        <dex dex="C:\Uwaterloo\ECE655\projects\project2\GroupTalk\app\build\intermediates\pre-dexed\androidTest\debug\javawriter-2.1.1_d7ac67b20eb304b48cf74a942eaa74ed14e8956b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Uwaterloo\ECE655\projects\project2\GroupTalk\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="C:\Uwaterloo\ECE655\projects\project2\GroupTalk\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-24.2.1_d3fe19aeda3b28729078ecfa206f486a633a08e2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Uwaterloo\ECE655\projects\project2\GroupTalk\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="C:\Uwaterloo\ECE655\projects\project2\GroupTalk\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-24.2.1_7bf867798e15fcf30668c0a7047d4d7939e84512.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Uwaterloo\ECE655\projects\project2\GroupTalk\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="C:\Uwaterloo\ECE655\projects\project2\GroupTalk\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-24.2.1_5417cf5dcba1a73b987f83995d92a0264c321f27.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Uwaterloo\ECE655\projects\project2\GroupTalk\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="C:\Uwaterloo\ECE655\projects\project2\GroupTalk\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_3cddabdce4ae006382a8a1e9586a26fa94f3f5a2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Uwaterloo\ECE655\projects\project2\GroupTalk\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="C:\Uwaterloo\ECE655\projects\project2\GroupTalk\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_c28dddb518c2b03cad0e3807a7a94a935749bda9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Wisdom H Jiang\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\2.0.1\516c03b21d50a644d538de0f0369c620989cd8f0\jsr305-2.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="516c03b21d50a644d538de0f0369c620989cd8f0">
+        <dex dex="C:\Uwaterloo\ECE655\projects\project2\GroupTalk\app\build\intermediates\pre-dexed\androidTest\debug\jsr305-2.0.1_c0c7794f449c26b6ecd387856c039492cbfca578.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Wisdom H Jiang\.gradle\caches\modules-2\files-2.1\javax.annotation\javax.annotation-api\1.2\479c1e06db31c432330183f5cae684163f186146\javax.annotation-api-1.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="479c1e06db31c432330183f5cae684163f186146">
+        <dex dex="C:\Uwaterloo\ECE655\projects\project2\GroupTalk\app\build\intermediates\pre-dexed\androidTest\debug\javax.annotation-api-1.2_b00b54fe2300cfa15168ec650d7db11a40182868.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Uwaterloo\ECE655\projects\project2\GroupTalk\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="C:\Uwaterloo\ECE655\projects\project2\GroupTalk\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-24.2.1_1ea059dc5f3da4bea06e7b37a4239985caa9f4d1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Uwaterloo\ECE655\projects\project2\GroupTalk\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="C:\Uwaterloo\ECE655\projects\project2\GroupTalk\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-24.2.1_925dc0ef013277bb6349fff88bde1e33605fc390.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Wisdom H Jiang\.gradle\caches\modules-2\files-2.1\junit\junit\4.12\2973d150c0dc1fefe998f834810d68f278ea58ec\junit-4.12.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="2973d150c0dc1fefe998f834810d68f278ea58ec">
+        <dex dex="C:\Uwaterloo\ECE655\projects\project2\GroupTalk\app\build\intermediates\pre-dexed\androidTest\debug\junit-4.12_6b4f5a2dc10e5c67d88d63cb3795967ea1bdf7a9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Uwaterloo\ECE655\projects\project2\GroupTalk\app\build\intermediates\exploded-aar\com.android.support\design\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="C:\Uwaterloo\ECE655\projects\project2\GroupTalk\app\build\intermediates\pre-dexed\debug\com.android.support-design-24.2.1_d7315fafca33086fb287da83f372999d94bc6d91.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Uwaterloo\ECE655\projects\project2\GroupTalk\app\build\intermediates\exploded-aar\com.android.support.test.espresso\espresso-core\2.2.2\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d115b0e9e1501135fe91254ba884fcbd83d374c0">
+        <dex dex="C:\Uwaterloo\ECE655\projects\project2\GroupTalk\app\build\intermediates\pre-dexed\androidTest\debug\com.android.support.test.espresso-espresso-core-2.2.2_cdc38f50e9ae6592790d6615c1b5b85ae4f19cb1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Uwaterloo\ECE655\projects\project2\GroupTalk\app\libs\libthrift-0.9.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e95b246488a5f2e530c5cf5f051ee83ac915f9b7">
+        <dex dex="C:\Uwaterloo\ECE655\projects\project2\GroupTalk\app\build\intermediates\pre-dexed\debug\libthrift-0.9.3_134dc155d004a406f1455866b03ee05cedfd1b00.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Uwaterloo\ECE655\projects\project2\GroupTalk\app\build\intermediates\exploded-aar\com.android.support.test\runner\0.5\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="796f9229948e907471c5595fbe94655ccf03ff73">
+        <dex dex="C:\Uwaterloo\ECE655\projects\project2\GroupTalk\app\build\intermediates\pre-dexed\androidTest\debug\com.android.support.test-runner-0.5_4479d22961efc8d6ca8b42ed7c5fabd5ccd6b5d5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Uwaterloo\ECE655\projects\project2\GroupTalk\app\build\intermediates\exploded-aar\com.android.support.test\exposed-instrumentation-api-publish\0.5\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="905f3e63973d47fedf2d945fa31d8c0f0c98816e">
+        <dex dex="C:\Uwaterloo\ECE655\projects\project2\GroupTalk\app\build\intermediates\pre-dexed\androidTest\debug\com.android.support.test-exposed-instrumentation-api-publish-0.5_feb035fa034f1882d061bdfd7ba1910fe271fb49.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="C:\Uwaterloo\ECE655\projects\project2\GroupTalk\app\build\intermediates\pre-dexed\debug\support-annotations-24.2.1_10cd953c940accdea77ebb67004f63b8f836c70e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Wisdom H Jiang\.gradle\caches\modules-2\files-2.1\log4j\log4j\1.2.14\3b254c872b95141751f414e353a25c2ac261b51\log4j-1.2.14.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="03b254c872b95141751f414e353a25c2ac261b51">
+        <dex dex="C:\Uwaterloo\ECE655\projects\project2\GroupTalk\app\build\intermediates\pre-dexed\debug\log4j-1.2.14_e29bc7e66ac17e4ba73286c7e5fa837ce4455262.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Uwaterloo\ECE655\projects\project2\GroupTalk\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="C:\Uwaterloo\ECE655\projects\project2\GroupTalk\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-24.2.1_d70a3ef7cc47c74f9e354a4a303bd31a2fa9c729.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Uwaterloo\ECE655\projects\project2\GroupTalk\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="C:\Uwaterloo\ECE655\projects\project2\GroupTalk\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-24.2.1_b13cb8dd29cfa9ee1312d77318993b9d5c663d85.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Wisdom H Jiang\.gradle\caches\modules-2\files-2.1\org.hamcrest\hamcrest-integration\1.3\5de0c73fef18917cd85d0ab70bb23818685e4dfd\hamcrest-integration-1.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="5de0c73fef18917cd85d0ab70bb23818685e4dfd">
+        <dex dex="C:\Uwaterloo\ECE655\projects\project2\GroupTalk\app\build\intermediates\pre-dexed\androidTest\debug\hamcrest-integration-1.3_a2e6547b9a1bdc8689d71de1fea0260f133c4cdc.jar" />
+    </item>
+
+</items>

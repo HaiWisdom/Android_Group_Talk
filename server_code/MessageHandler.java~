@@ -1,0 +1,163 @@
+import java.util.Concurrent;
+import org.apache.thrift.*;
+import org.apache.thrift.transport.*;
+import org.apache.thrift.protocol.*;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Collections;
+import java.util.Hashtable;
+import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.TimeUnit;
+import java.util.List;
+import java.util.ArrayList;
+import java.sql.*;
+
+public class MessageHandler implements MessageService.Iface {
+    private int myNum;
+    private ConcurrentHashMap<String,String> keyValueMap;
+    private HashMap<Integer, String> hosts;
+    private HashMap<Integer, Integer> ports;
+
+    public MessageHandler(int myNum, HashMap<Integer, String> hosts, HashMap<Integer, Integer> ports)
+    {
+        this.keyValueMap= new HashMap<String, String>();
+        this.hosts = hosts;
+        this.ports = ports;
+        this.myNum = myNum;
+    }
+    @Override
+    public void registerX(){
+	
+    }
+    @Override
+    public void Put(List<String> keys, List<String> values)
+    {
+        for(int i = 0; i < keys.size(); i++)
+        {
+          String key = keys.get(i);
+          String value = values.get(i);
+          keyValueMap.put(key, value);
+        }
+    }
+    private int hashPartition(String key)
+    {
+        int hashVal = key.hashCode();
+        int num = hashVal % hosts.size();
+        return num;
+    }
+    @Override
+    public List<String> multiGet(List<String> keys)
+    {
+        HashMap<Integer, List<String>> localkeys = new HashMap<Integer, List<String>>();
+        List<String> values = new ArrayList<String>();
+        for(int i = 0; i < keys.size(); i++)
+        {
+            String key = keys.get(i);
+            int hostNum = hashPartition(key);
+            if (hostNum == myNum)
+            {
+            	if (!keyValueMap.containsKey(key))
+                {
+            		values.add("");
+            	}
+                else
+                {
+            		values.add(keyValueMap.get(key));
+            	}
+            }
+            else
+            {
+		ArrayList<String> keyList;
+                if(!localkeys.containsKey(hostNum))
+                {
+                	keyList = new ArrayList<String>();
+                }
+		else {
+			keyList = localKeys.get(hostNum);
+		}
+                keyList.add(key);
+		localKeys.put(hostNum, keyList);
+               // String[] argGet =  new string[]{hosts.get(num),ports.get(num),key};
+                //values.add(values.addAll(JavaClient_Get())(hosts.get(num), ports.get(num),key));
+            }
+        }
+        for (Integer hNum : localkeys.keySet())
+        {
+            values.addAll(JavaClient_Get(hosts.get(hNum), ports.get(hNum), localkeys.get(hNum)));
+        }
+        return values;
+    }
+    @Override
+    public void multiPut(List<String> keys, List<String> values) throws IllegalArgument
+    {
+      	if (keys.size() != values.size())
+        {
+      		  throw new IllegalArgument("the size of keys is inconsistent with the size of values");
+      	}
+        HashMap<Integer, List<String>> localkeys = new HashMap<Integer, List<String>>();
+        HashMap<Integer, List<String>> localvalues = new HashMap<Integer, List<String>>();
+        for(int i = 0; i < keys.size(); i++)
+        {
+            String key = keys.get(i);
+            String value = values.get(i);
+            int num = hashPartition(key);
+            if (num == myNum)
+            {
+                keyValueMap.put(key,value);
+            }
+            else
+            {
+                if(!localkeys.containsKey(num))
+                {
+                  localkeys.put(num,new ArrayList<String>());
+                  localvalues.put(num,new ArrayList<String>());
+                }
+                localkeys.get(num).add(key);
+                localvalues.get(num).add(value);
+            }
+
+        }
+        for (Integer hostNum : localkeys.keySet())
+        {
+          values.addAll(JavaClient_Put(hosts.get(hostNum), ports.get(hostNum), localkeys.get(hostNum), localvalues.get(hostNum)));
+        }
+    }
+
+    private List<String> JavaClient_Get(String hosts, Integer port, List<String> keys)
+    {
+        try {
+        TSocket sock = new TSocket(hosts, port);
+        TTransport transport = new TFramedTransport(sock);
+        TProtocol protocol = new TBinaryProtocol(transport);
+        KeyValueService.Client client = new KeyValueService.Client(protocol);
+        transport.open();
+        List<String> values = client.Get(keys);
+        transport.close();
+        return values;
+        } catch (TException x)
+        {
+          x.printStackTrace();
+          return null;
+        }
+    }
+
+    private void JavaClient_Put(String hosts, Integer port, List<String> keys, List<String> values)
+    {
+        try {
+        TSocket sock = new TSocket(hosts, port);
+        TTransport transport = new TFramedTransport(sock);
+        TProtocol protocol = new TBinaryProtocol(transport);
+        KeyValueService.Client client = new KeyValueService.Client(protocol);
+        transport.open();
+        client.Put(keys, values);
+        transport.close();
+        } catch (TException x)
+        {
+          x.printStackTrace();
+        }
+    }
+
+
+}

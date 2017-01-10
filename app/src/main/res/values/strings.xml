@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Group Talk</string>
+    <string name="action_settings">Settings</string>
+    <string name="account">UserId</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="register"><u>Register</u></string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="please_register">My friend, please register!</string>
+    <string name="UserId">UserId</string>
+    <string name="title_activity_group">GroupActivity</string>
+    <string name="hello">Hello Wisdom</string>
+    <string name="hello1">Hello %s</string>
+    <string name="logout"><u>Logout</u></string>
+    <string name="game">Game Fans</string>
+    <string name="game1">Game</string>
+    <string name="music">Light Music</string>
+    <string name="music1">Music</string>
+    <string name="color">Love Color</string>
+    <string name="color1">Color</string>
+    <string name="run">Running Man</string>
+    <string name="run1">Run</string>
+    <string name="title_activity_talk">TalkActivity</string>
+    <string name="status">Status: Down</string>
+    <string name="status_realTime">Status: %s</string>
+    <string name="new1">NEW</string>
+    <string name="send">SEND</string>
+    <string name="name">Wisdom</string>
+    <string name="example">I love music!</string>
+    <string name="incorrectUserID">Incorrect UserId or Password</string>
+    <string name="joinGroup">Join</string>
+    <string name="quitGroup">Quit</string>
+    <string name="my_message">Me:  %s</string>
+    <string name="other_message" formatted="false">%s:  %s</string>
+    <string name="networkError">Cannot connect server!</string>
+    <string name="registerSuccess">Successful Registered!</string>
+    <string name="notInGroup">You are not in the group!</string>
+    <string name="userIn">The user in the group is:  </string>
+</resources>

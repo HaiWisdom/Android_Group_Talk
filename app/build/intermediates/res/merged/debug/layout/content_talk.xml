@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_talk"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="ca.uwaterloo.grouptalk.TalkActivity"
+    tools:showIn="@layout/activity_talk"
+    android:orientation="vertical">
+
+    <include layout="@layout/layout_top"/>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/mViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/colorBlue50">
+    </android.support.v4.view.ViewPager>
+    <include layout="@layout/layout_bottom"/>
+</LinearLayout>
